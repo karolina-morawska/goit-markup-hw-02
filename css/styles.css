@@ -1,0 +1,94 @@
+:root {
+    --link-color: #2196f3;
+  }
+  
+  :root {
+    --button-color: #212121;
+  }
+  
+  :root {
+    --contact-color: #757575;
+  }
+  
+  .button:hover,
+  .button:focus {
+    color: var(--button-color);
+    cursor: pointer;
+  }
+  
+  .buttonone:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: var(--link-color);
+  }
+  
+  .contact:hover,
+  .contact:focus {
+    color: var(--contacts-color);
+  }
+  
+  body {
+    font-family: Roboto, Raleway, sans-serif;
+    color: #212121;
+  }
+  
+  .logo:hover,
+  .logo:focus {
+    color: var(--link-color);
+  }
+  
+  .logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: Raleway;
+  }
+  
+  .navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
+  .contacts1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(contact-color);
+  }
+  
+  .contacts2 {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(contact-color);
+  }
+  
+  .menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  
+  .photos h2 {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  
+  .photos span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  address {
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
