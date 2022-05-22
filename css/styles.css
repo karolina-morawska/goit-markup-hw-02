@@ -93,7 +93,7 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.7;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -102,7 +102,7 @@ body {
 .lorem {
   font-weight: 700;
   font-size: 14px;
-  line-height: 0.8;
+  line-height: 1.14;
   letter-spacing: 00.03em;
   text-transform: uppercase;
 }
@@ -110,14 +110,13 @@ body {
 .headline {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.8;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
 .description {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 0.5;
+  line-height: 1.71;
   letter-spacing: 00.03em;
   color: #757575;
 }
@@ -140,14 +139,13 @@ body {
 .names {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 00.03em;
 }
 
 .jobs {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 0.8;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -155,28 +153,27 @@ body {
 .navigation {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .contacts1 {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.8;
+  line-height: 1.14;
   color: #757575;
 }
 
 .contacts2 {
-  line-height: 0.5;
+  line-height: 1.14;
   font-size: 14px;
-  font-weight: 400;
   color: #757575;
 }
 
 .menu {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.6;
+  line-height: 1.62;
 }
 
 .photosborder {
@@ -189,20 +186,18 @@ body {
 .photos h2 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 2;
 }
 
 .photos span {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 1.87;
   color: #757575;
 }
 
 .address {
-  line-height: 0.5;
+  line-height: 1.71;
   font-size: 14px;
-  font-weight: 400;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
