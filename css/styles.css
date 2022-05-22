@@ -1,83 +1,167 @@
-  
-  .button:hover,
-  .button:focus {
-    color: #212121;
-    cursor: pointer;
-  }
-  
-  .buttonone:hover {
-    color: #ffffff;
-    cursor: pointer;
-  }
-  
-  .link:hover,
-  .link:focus {
-    color: #2196f3;
-  }
-  
-  .contact:hover,
-  .contact:focus {
-    color: #2196f3;
-  }
-  
-  body {
-    font-family: Roboto, Raleway, sans-serif;
-    color: #212121;
-  }
-  
-  .logo:hover,
-  .logo:focus {
-    color: #2196f3;
-  }
-  
-  .logo {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    font-family: Raleway;
-  }
-  
-  .navigation {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-  }
-  
-  .contacts1 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #757575;
-  }
-  
-  .contacts2 {
-    line-height: 24px;
-    font-size: 14px;
-    font-weight: 400;
-    color: #757575;
-  }
-  
-  .menu {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-  }
-  
-  .photos h2 {
-    font-size: 18px;
-    line-height: 36px;
-    font-weight: 700;
-  }
-  
-  .photos span {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  
-  address {
-    line-height: 24px;
-    font-size: 14px;
-    font-weight: 400;
-  }
-  
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: #212121;
+}
+
+.button {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.buttonweb {
+  font-weight: 700;
+  line-height: 1.87;
+  color: #f5f4fa;
+  font-size: 16px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  background: #2196f3;
+  border-radius: 4px;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+.logo > a {
+  cursor: default;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  font-family: Raleway;
+}
+
+.logoweb {
+  color: #2196f3;
+}
+
+.logostudio {
+  color: #212121;
+}
+
+.logostudio2 {
+  color: #ffffff;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.contacts1:hover,
+.contacts1:focus {
+  color: #2196f3;
+}
+
+.contacts2:hover,
+.contacts2:focus {
+  color: #2196f3;
+}
+
+.firstpagebuisness {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+
+.headline {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.contacts1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+
+.contacts2 {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.photosborder {
+  box-sizing: border-box;
+  border: 1px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+}
+
+.photos h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.photos span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 684px;
+}
+
+.address {
+  line-height: 171%;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
+  width: 1600px;
+  height: 252px;
+}
