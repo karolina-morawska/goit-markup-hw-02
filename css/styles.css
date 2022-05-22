@@ -1,18 +1,7 @@
-:root {
-    --link-color: #2196f3;
-  }
-  
-  :root {
-    --button-color: #212121;
-  }
-  
-  :root {
-    --contact-color: #757575;
-  }
   
   .button:hover,
   .button:focus {
-    color: var(--button-color);
+    color: #212121;
     cursor: pointer;
   }
   
@@ -23,12 +12,12 @@
   
   .link:hover,
   .link:focus {
-    color: var(--link-color);
+    color: #2196f3;
   }
   
   .contact:hover,
   .contact:focus {
-    color: var(--contacts-color);
+    color: #2196f3;
   }
   
   body {
@@ -38,7 +27,7 @@
   
   .logo:hover,
   .logo:focus {
-    color: var(--link-color);
+    color: #2196f3;
   }
   
   .logo {
@@ -58,14 +47,14 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: var(contact-color);
+    color: #757575;
   }
   
   .contacts2 {
     line-height: 24px;
     font-size: 14px;
     font-weight: 400;
-    color: var(contact-color);
+    color: #757575;
   }
   
   .menu {
