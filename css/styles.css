@@ -43,6 +43,7 @@ body {
 .logo:hover,
 .logo:focus {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .logo > a {
@@ -54,6 +55,7 @@ body {
   font-size: 26px;
   line-height: 0.8;
   font-family: Raleway;
+  text-decoration: none;
 }
 
 .logoweb {
@@ -68,19 +70,34 @@ body {
   color: #ffffff;
 }
 
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+
 .link:hover,
 .link:focus {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .contacts1:hover,
 .contacts1:focus {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .contacts2:hover,
 .contacts2:focus {
   color: #2196f3;
+  text-decoration: none;
 }
 
 .firstpagebuisness {
@@ -93,7 +110,6 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -110,7 +126,6 @@ body {
 .headline {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
@@ -124,7 +139,6 @@ body {
 .team {
   background-color: #f5f4fa;
   width: 1600px;
-  height: 684px;
 }
 
 .teamborder {
@@ -145,16 +159,8 @@ body {
 
 .jobs {
   font-size: 16px;
-  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.navigation {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .contacts1 {
@@ -162,12 +168,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: #757575;
+  text-decoration: none;
 }
 
 .contacts2 {
   line-height: 1.14;
   font-size: 14px;
   color: #757575;
+  text-decoration: none;
 }
 
 .menu {
